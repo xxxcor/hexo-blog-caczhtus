@@ -6,6 +6,8 @@ top_img: https://cdn.jsdelivr.net/gh/Caczhtus/Caczhtus-imgs/images/resource/112.
 comments: false
 ---
 
+<center><a href="https://cdn.jsdelivr.net/gh/Caczhtus/Caczhtus-imgs/images/other/ic_2.jpg" data-fancybox="group" data-caption="小庄"><img src="https://cdn.jsdelivr.net/gh/Caczhtus/Caczhtus-imgs/images/other/ic_2.jpg" style="border-radius:50%;width:130px;height:auto" alt="小庄" class="loaded"></a></center>
+
 ### [](#基本信息 "基本信息")基本信息
 
 -   😎江湖人称：Caczhtus（目前是个蒟蒻）

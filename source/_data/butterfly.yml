@@ -20,8 +20,8 @@ menu:
     - 相册 || /gallery/ || far fa-image
     - 书单 || /books/ || fas fa-book
     #- 主页 || /home/ || fab fa-phoenix-framework
-  动态: /talk/ || far fa-comment
-  留言板: /contact/ || far fa-comments
+  # 动态: /talk/ || far fa-comment
+  留言: /contact/ || far fa-comments
   友链: /link/ || fa fa-link
   关于: /about/ || fa fa-heart
 
@@ -280,8 +280,8 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
   use:
-    - Livere
-    - Utterances
+    #- Livere
+    #- Utterances
   text: true # Display the comment name next to the button
   load_begin: true # The second comment system will auto load when visiting the website
   count: true # Dispaly comment count in top_img
@@ -306,7 +306,7 @@ disqusjs:
 # livere(來必力)
 # https://www.livere.com/
 livere:
-  enable: true
+  enable: false
   uid: MTAyMC81MTAwNi8yNzQ4OA
 
 # gitalk
@@ -343,7 +343,7 @@ valine:
 # utterances
 # https://utteranc.es/
 utterances:
-  enable: true
+  enable: false
   repo: Caczhtus/Caczhtus-comment
   # Issue Mapping: pathname/url/title/og:title
   issue_term: pathname
