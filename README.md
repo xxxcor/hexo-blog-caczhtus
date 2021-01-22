@@ -4,14 +4,12 @@
 
 ## :triangular_flag_on_post:	 鸣谢
 
-**本项目参考了 <a href="https://github.com/Chocolate1999/hexo-blog-lionkk">hexo-blog-lionkk</a> 的源码进行Diy。**
+**本项目参考了 <a href="https://butterfly.js.org/">Jerry</a> 的源码进行Diy。**
 
 ## :partly_sunny:特性
 `hexo-theme-butterfly `是基于 <a href="https://github.com/Molunerfinn">Molunerfinn</a> 的<a href="https://github.com/Molunerfinn/hexo-theme-melody"> hexo-theme-melody</a> 的基础上进行开发的。
 
 :pencil:	作者: <a href="https://github.com/jerryc127/hexo-theme-butterfly">JerryC</a>
-
-:memo:PS：<a href="https://github.com/Chocolate1999/hexo-blog-lionkk">参考书写风格</a>
 
 **原主题特性：**
 
@@ -42,3 +40,7 @@
 ## :name_badge:License
 
 <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>
+
+## :partly_sunny:历史
+
+2021/1/22 版本升级 3.0 --> 3.5.1

@@ -34,7 +34,8 @@
     "hexo-wordcount": "^6.0.1",
     "html-min": "0.0.4",
     "live2d-widget-model-haruto": "^1.0.5",
-    "live2d-widget-model-koharu": "^1.0.5"
+    "live2d-widget-model-koharu": "^1.0.5",
+    "webpack-dev-server": "^3.1.11"
   },
   "description": "**博客基于`Hexo`框架搭建，用到`hexo-theme-butterfly`主题,并在此基础之上做了修改，增加了一些新的特性和功能。**",
   "main": "index.js",
