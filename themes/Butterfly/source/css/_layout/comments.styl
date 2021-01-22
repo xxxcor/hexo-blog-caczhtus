@@ -2,13 +2,13 @@
   .comment-head
     margin-bottom: 1rem
 
-    .comment-headling
+    .comment-headline
       display: inline-block
       vertical-align: middle
       font-weight: 700
-      font-size: 20px
+      font-size: 1.43em
 
-    .comment-switch
+    #comment-switch
       display: inline-block
 
       if hexo-config('comments.text')
@@ -19,6 +19,8 @@
         border-radius: 8px
         background: $comments-switch-bg
       else
+        vertical-align: middle
+
         > span
           display: none
 
@@ -28,47 +30,35 @@
       .second-comment
         color: $comments-switch-second-text
 
-      label
+      .switch-btn
         position: relative
         display: inline-block
-        margin: 0 .4rem
+        margin: -4px .4rem 0
         width: 42px
         height: 22px
-        vertical-align: sub
+        border-radius: 34px
+        background-color: $comments-switch-first-text
+        vertical-align: middle
+        cursor: pointer
+        transition: .4s
 
-        input#switch-comments-btn
-          width: 0
-          height: 0
-          opacity: 0
-
-          &:checked + .slider
-            background-color: $comments-switch-second-text
-
-          &:checked + .slider:before
-            transform: translateX(20px)
-
-        .slider
+        &:before
           position: absolute
-          top: 0
-          right: 0
-          bottom: 0
-          left: 0
-          border-radius: 34px
-          background-color: $comments-switch-first-text
-          cursor: pointer
+          bottom: 4px
+          left: 4px
+          width: 14px
+          height: 14px
+          border-radius: 50%
+          background-color: $comments-switch-round
+          content: ''
           transition: .4s
 
+        &.move
+          background-color: $comments-switch-second-text
+
           &:before
-            position: absolute
-            bottom: 4px
-            left: 4px
-            width: 14px
-            height: 14px
-            border-radius: 50%
-            background-color: $comments-switch-round
-            content: ''
-            transition: .4s
+            transform: translateX(20px)
 
   .comment-wrap
-    .comments-items-2
+    > div:nth-child(2)
       display: none
