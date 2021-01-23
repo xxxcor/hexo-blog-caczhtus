@@ -34,7 +34,7 @@ menu:
     # - 书单 || /books/ || fas fa-book
     #- 主页 || /home/ || fab fa-phoenix-framework
   # 动态: /talk/ || far fa-comment
-  # 留言: /contact/ || far fa-comments
+  留言: /contact/ || far fa-comments
   友链: /link/ || fa fa-link
   # 关于: /about/ || fa fa-heart
 
@@ -43,8 +43,8 @@ PS: 欢迎小伙伴交换友链😁
 Requirement_header: 友链注意事项
 requirement1: HTTP和HTTPS均可，不强制性要求小绿锁，但是只有一个IP或者带端口的不接受哦
 requirement2: 网站要有维护，定期或不定期均可，线下朋友请忽略这一条
-requirement3: 申请友链在评论区留言即可，但需先添加本站友链（申请格式如下文所述）
-requirement4: 有一定数量的原创文章，建站一周以上（大佬可以无视以上要求）
+requirement3: 申请友链在友链区留言即可，但需先添加本站友链（申请格式如下文所述）
+requirement4: 有一定数量的原创文章，建站一周以上
 requirement5: 如果你想联系我，可通过主页的联系界面或者本站聊天工具私我
 
 Info_header: 友链申请格式
@@ -225,7 +225,7 @@ index_post_content:
 toc:
   enable: true
   number: true
-  style_simple: true
+  style_simple: false
 
 post_copyright:
   enable: true
@@ -698,7 +698,7 @@ preloader: false
 aside:
   enable: true
   mobile: true # display on mobile
-  position: left # left or right
+  position: right # left or right
   card_author:
     enable: true
     description:
@@ -731,7 +731,7 @@ aside:
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
     limit: 8 # if set 0 will show all
   card_webinfo: 
-    enable: false
+    enable: true
 
 # aside:
 #   enable: true
@@ -789,7 +789,7 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
+  enable: true
   publish_date: 2020/7/20 00:00:00
 
 # Aside widget - Newest Comments
