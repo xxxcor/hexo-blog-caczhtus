@@ -71,6 +71,11 @@ class:
       time: 2s
       # 鼠标悬停旋转角度
       rotate: 360deg
+    8:
+      name: 小嘉的部落格
+      link: //blog.imzjw.cn
+      avatar: //cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/avatar.jpg
+      descr: 好记性不如烂笔头
 
 class2:
   class_name: 小伙伴们🎈

@@ -62,7 +62,7 @@ hide_sidebar_menu_child: false
 highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
-highlight_shrink: true # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 code_word_wrap: false
 
 # copy settings
@@ -965,6 +965,7 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@master/Hexo/css/iconfont.min.css"> #iconfont
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@master/Hexo/css/flink.min.css">
+    - <link rel="stylesheet" href="/css/tag-diy.css"> # 外挂标签
   bottom:
     # - <script src="xxxx"></script>
     - <script src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/js/switch.min.js"></script> #双评论系统
