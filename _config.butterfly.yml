@@ -83,7 +83,7 @@ social:
   iconfont icon-youxiang: mailto:caczhtus@outlook.com || Email
   iconfont icon-bilibili1: https://space.bilibili.com/622882181 || Bilibili
   iconfont icon-csdn: https://blog.csdn.net/calculate23 || CSDN
-  iconfont icon-qq1: http://api.btstu.cn/qqtalk/api.php?qq=2287641367 || QQ
+  iconfont icon-qq1: http://api.btstu.cn/qqtalk/api.php?qq=1346508985 || QQ
 
 # search (搜索)
 # --------------------------------------
@@ -963,8 +963,8 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@master/Hexo/css/iconfont.min.css"> #iconfont
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@master/Hexo/css/flink.min.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kang-static@latest/Hexo/css/iconfont.min.css"> #iconfont
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kang-static@latest/Hexo/css/flink.min.css">
     - <link rel="stylesheet" href="/css/tag-diy.css"> # 外挂标签
   bottom:
     # - <script src="xxxx"></script>
